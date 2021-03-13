@@ -107,11 +107,9 @@ router.post('/',(req, res)=>{
 
    });
 
-
-
-
-
-const users={};
-
-module.exports ={
-    user
+  // Promise.all([promiseUser, promiseRepos])
+    //   .then((responses) => {
+    //      console.log(responses.data);
+    //   }).catch(()=>{
+      //    res.send('error');
+    //   });
